@@ -89,6 +89,26 @@ h1 {
   margin: 0 auto 2rem;
 }
 
+.inline-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+  transition: border-color 0.15s ease;
+}
+
+.inline-link:hover {
+  border-color: var(--accent);
+}
+
+.card a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.card a:hover {
+  text-decoration: underline;
+}
+
 .cta {
   display: flex;
   justify-content: center;
